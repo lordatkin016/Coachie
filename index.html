@@ -26,7 +26,7 @@
         .container-wrapper {
             display: flex;
             justify-content: center;
-            margin: 20px;
+            padding: 20px;
         }
         .container {
             display: inline-block;
@@ -36,6 +36,7 @@
         }
         .candidate-info {
             display: flex;
+            flex-wrap: wrap;
             align-items: center;
             justify-content: center;
             gap: 20px;
@@ -71,9 +72,7 @@
             color: white;
             text-align: center;
             padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 40px;
         }
     </style>
 </head>
@@ -86,7 +85,6 @@
     <div class="container-wrapper">
         <div class="container">
             <section class="candidate-info">
-                <!-- Add Image Here -->
                 <img src="coach.jpg" alt="Adesoji Samuel Kayode (SAMVINSKEYS)">
                 
                 <div>
