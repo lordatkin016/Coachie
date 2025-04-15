@@ -23,9 +23,13 @@
             font-size: 36px;
             margin: 0;
         }
+        .container-wrapper {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
         .container {
-    
-            margin: 20px auto;
+            display: inline-block;
             padding: 20px;
             background-color: white;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -42,9 +46,6 @@
             height: 200px;
             border-radius: 50%;
             object-fit: cover;
-        }
-        .candidate-info div {
-    
         }
         .candidate-info h2 {
             font-size: 28px;
@@ -82,28 +83,30 @@
         <p>Faculty of Computing, AAUA - 25/26 Session</p>
     </header>
 
-    <div class="container">
-        <section class="candidate-info">
-            <!-- Add Image Here -->
-            <img src="coach.jpg" alt="Adesoji Samuel Kayode (SAMVINSKEYS)">
-            
-            <div>
-                <h2>About SAMVINSKEYS</h2>
-                <p>Hello! I'm Adesoji Samuel Kayode, also known as SAMVINSKEYS. I'm running for the position of Sports Director for NACOS 009 in the Faculty of Computing at Adekunle Ajasin University, Akungba (AAUA) for the 25/26 session. My passion for sports and student welfare drives me to ensure that our faculty remains at the forefront of campus activities and sports excellence.</p>
-                <p>As Sports Director, I plan to bring fresh ideas, transparency, and a commitment to organizing engaging and impactful sports events that foster unity and school spirit.</p>
-            </div>
-        </section>
+    <div class="container-wrapper">
+        <div class="container">
+            <section class="candidate-info">
+                <!-- Add Image Here -->
+                <img src="coach.jpg" alt="Adesoji Samuel Kayode (SAMVINSKEYS)">
+                
+                <div>
+                    <h2>About SAMVINSKEYS</h2>
+                    <p>Hello! I'm Adesoji Samuel Kayode, also known as SAMVINSKEYS. I'm running for the position of Sports Director for NACOS 009 in the Faculty of Computing at Adekunle Ajasin University, Akungba (AAUA) for the 25/26 session. My passion for sports and student welfare drives me to ensure that our faculty remains at the forefront of campus activities and sports excellence.</p>
+                    <p>As Sports Director, I plan to bring fresh ideas, transparency, and a commitment to organizing engaging and impactful sports events that foster unity and school spirit.</p>
+                </div>
+            </section>
 
-        <section class="campaign-goals">
-            <h3>My Goals for the 25/26 Session:</h3>
-            <ul class="goals-list">
-                <li>Improve participation in inter-faculty sports competitions</li>
-                <li>Provide equal opportunities for all students, regardless of gender or background</li>
-                <li>Collaborate with other faculties to organize inclusive sports events</li>
-                <li>Enhance training facilities and equipment for better performance</li>
-                <li>Ensure fair representation of students' interests in sports decision-making</li>
-            </ul>
-        </section>
+            <section class="campaign-goals">
+                <h3>My Goals for the 25/26 Session:</h3>
+                <ul class="goals-list">
+                    <li>Improve participation in inter-faculty sports competitions</li>
+                    <li>Provide equal opportunities for all students, regardless of gender or background</li>
+                    <li>Collaborate with other faculties to organize inclusive sports events</li>
+                    <li>Enhance training facilities and equipment for better performance</li>
+                    <li>Ensure fair representation of students' interests in sports decision-making</li>
+                </ul>
+            </section>
+        </div>
     </div>
 
     <footer>
